@@ -1,0 +1,37 @@
+.navigation {
+    background-color: $c-main-bl;
+    padding-bottom: 32px;
+    padding-top: 32px;
+
+    &-title {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $c-white;
+    }
+
+    &-menu {
+        display: flex;
+        gap: 40px;
+    }
+
+    &-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+.menu-item {
+    @include navText;
+    transition: all 0.25s;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 3px 4px 0px #486BFE;
+}

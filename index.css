@@ -57,7 +57,7 @@ ul {
 }
 
 .header {
-  background-image: url("../../img/desktop/header_desktop.jpg");
+  background-image: url("../../img/HeaderBackground.jpg");
   background-size: cover;
   padding-top: 295px;
   padding-bottom: 120px;
@@ -192,6 +192,46 @@ ul {
   width: 14px;
   height: 16px;
   margin: 0 auto;
+}
+
+.navigation {
+  background-color: #5373FD;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.navigation-title {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.navigation-menu {
+  display: flex;
+  gap: 40px;
+}
+.navigation-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  font-family: "Aleo";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.25s;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 3px 4px 0px #486BFE;
 }
 
 /* aleo-regular - latin */
