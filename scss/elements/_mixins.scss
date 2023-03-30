@@ -1,0 +1,38 @@
+@function to-rem($pixels, $base-font-size: 16px) {
+    $rem-value: $pixels / $base-font-size;
+    @return $rem-value * 1rem;
+  }
+
+  @mixin text {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    line-height: 28px;
+    font-size: to-rem($fz-16px);
+    letter-spacing: 0.1em;
+    color:$c-white;
+  }
+
+  @mixin sectionNametitle {
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: to-rem($fz-36px);
+    line-height: 40px;
+    color: $c-white;
+  }
+
+  @mixin secondtitleSpain {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: to-rem($fz-20px);
+    line-height: 28px;
+    color: $c-white;
+  }
+
+  @mixin navText {
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: to-rem($fz-14px);
+    line-height: 20px;
+    color: $c-white;
+    letter-spacing: 0.1em;
+  }
