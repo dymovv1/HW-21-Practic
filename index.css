@@ -18,6 +18,10 @@
   margin-bottom: 16px;
 }
 
+.mb_60 {
+  margin-bottom: 60px;
+}
+
 .header {
   background-image: url("../../img/desktop/header_desktop.jpg");
   background-size: cover;
@@ -324,6 +328,51 @@
 .body-container {
   background: rgba(35, 35, 35, 0.9);
   padding: 44px 32px 44px 32px;
+}
+
+.tourist {
+  background-image: url(../../img/desktop/tourist_bg_desktop_1360px.jpg);
+  padding-top: 120px;
+  padding-bottom: 180px;
+  background-size: cover;
+}
+.tourist-title {
+  font-family: "Aleo";
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+.tourist-text {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.tourist-sam__blog {
+  display: flex;
+}
+
+.sam-text {
+  padding: 48px 60px 48px 60px;
+  background-color: #333333;
+}
+.sam-title {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.quote-img {
+  position: relative;
+  bottom: 8px;
+  margin-right: 6px;
 }
 
 * {

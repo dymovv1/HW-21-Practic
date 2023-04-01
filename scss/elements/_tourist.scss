@@ -1,0 +1,40 @@
+.tourist {
+    background-image: url(../../img/desktop/tourist_bg_desktop_1360px.jpg);
+    padding-top: 120px;
+    padding-bottom: 180px;
+    background-size: cover;
+
+    &-title {
+        @include sectionNametitle;
+        text-align: center;
+    }
+
+    &-text {
+        @include text;
+    }
+
+    &-sam__blog {
+        display: flex;
+    }
+
+
+}
+
+.sam {
+
+    &-text {
+        padding: 48px 60px 48px 60px;
+        background-color: $c-dark-gray;
+    }
+
+    &-title {
+        @include secondtitleSpain;
+    }
+
+}
+
+.quote-img {
+    position: relative;
+    bottom: 8px;
+    margin-right: 6px;
+}
