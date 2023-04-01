@@ -1,58 +1,33 @@
+
 .btn {
     display: inline-flex;
-    position: relative;
-    cursor: pointer;
 
     &-link {
-        background-color: $c-main-bl;
-        padding-top: 20px;
         padding-bottom: 20px;
-        position: absolute;
-        transition: all 0.3s;
+        padding-top: 20px;
+        padding-right: 32.5px;
+        padding-left: 32.5px;
+        background-image: url(../../img/Button.svg);
+        font-family: 'Aleo';
+        font-weight: 400;
+        font-size: to-rem($fz-16px);
+        color: $c-white;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        line-height: 20px;
         opacity: 1;
+
     }
+
 
     &-link:hover {
         opacity: 0.9;
-        background-color: #486BFE;
     }
 
     &-link:active {
         opacity: 1;
-        background-color: #486BFE;
-    }
-
-    &-link::after,
-    &-link::before {
-    font-family: 'Aleo';
-    font-weight: 400;
-    line-height: 20px;
-    font-size: to-rem($fz-16px);
-    color: $c-white;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    top: 23px;
-    }
-
-    .btn-link::after {
-        content: "NOW";
-        right: 50px;
-        padding-right: 56px;
-        padding-left: 5px;
-        padding-top: 22px;
-        padding-bottom: 22px;
-      }
-
-    &-link::before {
-        content: "BOOK";
-        left: 50px;
-        padding-left: 56px;
-        padding-top: 22px;
-        padding-bottom: 22px;
-        background-image: url(../../img/Rectangle.png);
     }
 
 }
-
 
 

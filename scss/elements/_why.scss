@@ -1,0 +1,39 @@
+.why {
+    background-image: url(../../img/desktop/Why_Background_desktop.jpg);
+    background-size: cover;
+    padding-bottom: 124px;
+    padding-top: 124px;
+    &-body {
+        display: flex;
+        justify-content: space-between
+    }
+
+
+}
+
+.choose {
+    &-title {
+        @include sectionNametitle;
+        padding-top: 67px;
+
+    }
+
+    &-photos:nth-child(1) {
+        margin-bottom: 16px
+
+    }
+
+    &-photos:nth-child(1) {
+        margin-left: -110px;
+
+    }
+
+    &-text {
+        @include text;
+        max-width: 558px;
+    }
+
+    &-photos {
+        display:block;
+    }
+}

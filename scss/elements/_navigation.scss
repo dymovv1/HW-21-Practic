@@ -1,7 +1,7 @@
 .navigation {
     background-color: $c-main-bl;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding-bottom: 24px;
+    padding-top: 23px;
 
     &-title {
     font-family: 'Josefin Sans';
@@ -11,6 +11,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $c-white;
+    padding-top: 9px;
     }
 
     &-menu {
@@ -29,6 +30,8 @@
 .menu-item {
     @include navText;
     transition: all 0.25s;
+    letter-spacing: 1.33px;
+
 }
 
 .menu-item:hover {
