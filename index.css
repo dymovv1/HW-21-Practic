@@ -232,6 +232,41 @@
   display: block;
 }
 
+.steps {
+  background-color: #333333;
+  width: 100%;
+  background-image: url(../../img/Line.svg);
+  padding-top: 140px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 80px;
+  padding-bottom: 44px;
+}
+.steps-item {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.steps-item__img {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
+.steps-item__title {
+  font-family: "Aleo";
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 40px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.steps-list {
+  display: flex;
+  justify-content: center;
+  gap: 179px;
+  background-color: #333333;
+}
+
 * {
   padding: 0%;
   margin: 0%;
