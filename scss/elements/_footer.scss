@@ -1,0 +1,49 @@
+.footer {
+    background-color: $c-black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    &-title {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $c-white;
+    }
+
+    &-text {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    }
+
+    &-body {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-body__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-list {
+        display: flex;
+        gap: 32px;
+    }
+}
+
+.path {
+    fill: $c-white;
+}
+
+.list-item:hover path {
+    fill: $c-main-bl;
+    transition: all 0.25s;
+}
