@@ -26,6 +26,7 @@
     font-size: to-rem($fz-20px);
     line-height: 28px;
     color: $c-white;
+    text-transform: uppercase;
   }
 
   @mixin navText {

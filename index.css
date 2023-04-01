@@ -14,6 +14,10 @@
   margin-bottom: 32px;
 }
 
+.mb_16 {
+  margin-bottom: 16px;
+}
+
 .header {
   background-image: url("../../img/desktop/header_desktop.jpg");
   background-size: cover;
@@ -267,6 +271,61 @@
   background-color: #333333;
 }
 
+.spain-left {
+  padding-top: 220px;
+  padding-bottom: 120px;
+  background-image: url(../../img/desktop/apartament_dekstop_1360px.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.spain-right {
+  padding-top: 220px;
+  padding-bottom: 120px;
+  background-image: url(../../img/desktop/sea_desktop_1360px.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.spain-subtitle {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  font-size: 20px;
+}
+.spain-text {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  max-width: 494px;
+}
+.spain-title {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.spain-body__left {
+  padding: 44px 32px 44px 32px;
+  background: rgba(35, 35, 35, 0.9);
+  max-width: 558px;
+}
+.spain-body__right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.body-container {
+  background: rgba(35, 35, 35, 0.9);
+  padding: 44px 32px 44px 32px;
+}
+
 * {
   padding: 0%;
   margin: 0%;
@@ -381,4 +440,9 @@ ul {
 }
 .btn-link:active {
   opacity: 1;
+}
+
+.--book {
+  padding-right: 56.5px;
+  padding-left: 56.5px;
 }/*# sourceMappingURL=index.css.map */

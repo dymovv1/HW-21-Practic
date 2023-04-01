@@ -1,0 +1,50 @@
+.spain {
+    &-left {
+        padding-top: 220px;
+        padding-bottom: 120px;
+        background-image: url(../../img/desktop/apartament_dekstop_1360px.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &-right {
+        padding-top: 220px;
+        padding-bottom: 120px;
+        background-image: url(../../img/desktop/sea_desktop_1360px.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &-subtitle {
+        @include text;
+        font-size: $fz-20px;
+    }
+
+    &-text {
+        @include text;
+        max-width: 494px;
+
+    }
+
+    &-title {
+        @include secondtitleSpain;
+    }
+
+    &-body__left {
+        padding: 44px 32px 44px 32px;
+        background: rgba(35, 35, 35, 0.9);
+        max-width: 558px;
+    }
+
+    &-body__right {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.body-container {
+    background: rgba(35, 35, 35, 0.9);
+    padding: 44px 32px 44px 32px;
+
+
+}
