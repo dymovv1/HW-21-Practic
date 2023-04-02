@@ -57,6 +57,7 @@
   line-height: 28px;
   letter-spacing: 0.31em;
   color: #ffffff;
+  text-align: center;
 }
 
 .header-search {
@@ -185,6 +186,12 @@
   background-color: #5373FD;
   padding-bottom: 24px;
   padding-top: 23px;
+  position: sticky;
+  top: 0;
+}
+.navigation-wrapper {
+  position: sticky;
+  top: 0;
 }
 .navigation-title {
   font-family: "Josefin Sans";
@@ -216,6 +223,7 @@
   text-transform: uppercase;
   transition: all 0.25s;
   letter-spacing: 1.33px;
+  white-space: nowrap;
 }
 
 .menu-item:hover {
@@ -235,7 +243,17 @@
   .navigation-menu {
     display: none;
   }
+  .navigation-body {
+    flex-direction: column;
+  }
 }
+.navigation-menu.active {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+}
+
 .why {
   background-image: url(../../img/desktop/Why_Background_desktop.jpg);
   background-size: cover;
@@ -316,6 +334,8 @@
   }
   .why-photos {
     flex-direction: column;
+    gap: 24px;
+    align-items: center;
   }
 }
 .steps {
@@ -549,6 +569,56 @@
   transition: all 0.25s;
 }
 
+.burger-menu {
+  position: absolute;
+  right: 18px;
+  display: none;
+}
+.burger-menu.click {
+  display: block;
+}
+.burger-line {
+  display: flex;
+  width: 40px;
+  height: 2px;
+  background-color: #ffffff;
+  transition: all 0.25s;
+}
+.burger-line:first-child {
+  position: relative;
+  bottom: 9px;
+  height: 2px;
+}
+.burger-line:last-child {
+  position: relative;
+  top: 9px;
+  height: 2px;
+}
+
+.burger-menu.click .burger-line:nth-child(1) {
+  transform: rotateZ(45deg) translateY(16px) translateX(3px);
+  transition: all 0.25s;
+}
+
+.burger-menu.click .burger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.click .burger-line:nth-child(3) {
+  transform: rotateZ(-45deg) translateY(-13px) translateX(1px);
+  transition: all 0.25s;
+}
+
+.body-container__burger {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 595px) {
+  .burger-menu {
+    display: block;
+  }
+}
 * {
   padding: 0%;
   margin: 0%;

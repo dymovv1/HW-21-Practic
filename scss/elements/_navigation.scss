@@ -2,6 +2,13 @@
     background-color: $c-main-bl;
     padding-bottom: 24px;
     padding-top: 23px;
+    position: sticky;
+    top: 0;
+
+    &-wrapper {
+        position: sticky;
+        top: 0;
+    }
 
     &-title {
     font-family: 'Josefin Sans';
@@ -31,6 +38,7 @@
     @include navText;
     transition: all 0.25s;
     letter-spacing: 1.33px;
+    white-space: nowrap;
 
 }
 
@@ -52,5 +60,17 @@
     .navigation-menu {
         display: none;
     }
+
+    .navigation-body {
+        flex-direction: column;
+    }
 }
+
+.navigation-menu.active {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+
 
