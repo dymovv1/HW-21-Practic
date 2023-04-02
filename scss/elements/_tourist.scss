@@ -15,6 +15,7 @@
 
     &-sam__blog {
         display: flex;
+        justify-content: center;
     }
 
 
@@ -25,6 +26,7 @@
     &-text {
         padding: 48px 60px 48px 60px;
         background-color: $c-dark-gray;
+        max-width: 760px
     }
 
     &-title {
@@ -39,3 +41,34 @@
     margin-right: 6px;
 }
 
+@media screen and (max-width: 1025px){
+    .tourist-sam__blog {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 1359px){
+    .sam-text {
+        max-width: 640px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+
+    .tourist-body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    .sam-text {
+        max-width: 720px;
+    }
+    
+}

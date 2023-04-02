@@ -38,3 +38,19 @@
     transform: scale(1.1);
     box-shadow: 4px 3px 4px 0px #486BFE;
 }
+
+@media screen and (max-width: 1025px){
+    .navigation-body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+    }
+    }
+    
+@media screen and (max-width: 576px){
+    .navigation-menu {
+        display: none;
+    }
+}
+

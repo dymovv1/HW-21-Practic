@@ -35,3 +35,21 @@
     }
 
 }
+
+@media screen and (max-width: 1025px) {
+
+    .steps-list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 59px;
+    }
+
+    .steps {
+        background-image: none;
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+    
+}

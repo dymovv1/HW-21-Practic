@@ -48,3 +48,25 @@
 
 
 }
+
+@media screen  and (max-width: 1025px){
+
+    .spain {
+
+        &-body__left {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        &-body__right {
+            max-width: 720px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        &-text {
+            max-width: 656px;
+        }
+    }
+    
+}

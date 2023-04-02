@@ -103,7 +103,7 @@
     letter-spacing: 0.2em;
     color: $c-gray;
     width: 100%;
-    padding-right: 100px;
+    // padding-right: 100px;
 }
 
 .scroll-button {
@@ -135,4 +135,32 @@
     width: 14px;
     height: 16px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 768px){
+    .search {
+
+        &-input {
+            max-width: 540px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 590px){
+    .search {
+
+        &-input {
+            max-width: 400px;
+        }
+
+
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .search-input {
+        max-width: 295px;
+    }
 }
