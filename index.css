@@ -31,7 +31,6 @@
 }
 
 .header {
-  background-image: url("../../img/desktop/header_desktop.jpg");
   background-size: cover;
   padding-top: 295px;
   padding-bottom: 115px;
@@ -182,6 +181,26 @@
     max-width: 295px;
   }
 }
+@media screen and (max-width: 576px) {
+  .header {
+    background-image: url(../../img/mobile/Header_mobile.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    background-image: url(../../img/desktop/header_1024px.jpg);
+  }
+}
+@media screen and (min-width: 1359px) {
+  .header {
+    background-image: url(../../img/desktop/header_1360px.jpg);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    background-image: url(../../img/desktop/header_768px.jpg);
+  }
+}
 .navigation {
   background-color: #5373FD;
   padding-bottom: 24px;
@@ -255,7 +274,6 @@
 }
 
 .why {
-  background-image: url(../../img/desktop/Why_Background_desktop.jpg);
   background-size: cover;
   padding-bottom: 124px;
   padding-top: 124px;
@@ -338,6 +356,26 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 576px) {
+  .why {
+    background-image: url(../../img/mobile/Why_bg_576px.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .why {
+    background-image: url(../../img/desktop/Why_Background_1024px.jpg);
+  }
+}
+@media screen and (min-width: 1359px) {
+  .why {
+    background-image: url(../../img/desktop/Why_Background_1360px.jpg);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .why {
+    background-image: url(../../img/laptop/Why_bg_768px.jpg);
+  }
+}
 .steps {
   background-color: #333333;
   width: 100%;
@@ -389,14 +427,12 @@
 .spain-left {
   padding-top: 220px;
   padding-bottom: 120px;
-  background-image: url(../../img/desktop/apartament_dekstop_1360px.jpg);
   background-size: cover;
   background-position: center;
 }
 .spain-right {
   padding-top: 220px;
   padding-bottom: 120px;
-  background-image: url(../../img/desktop/sea_desktop_1360px.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -455,8 +491,47 @@
     max-width: 656px;
   }
 }
+@media screen and (max-width: 576px) {
+  .spain-left {
+    background-image: url(../../img/mobile/sea_mobile.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .spain-left {
+    background-image: url(../../img/desktop/sea_desktop_1024px.jpg);
+  }
+}
+@media screen and (min-width: 1359px) {
+  .spain-left {
+    background-image: url(../../img/desktop/sea_desktop_1360px.jpg);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .spain-left {
+    background-image: url(../../img/laptop/sea_768px.jpg);
+  }
+}
+@media screen and (max-width: 576px) {
+  .spain-rigth {
+    background-image: url(../../img/mobile/apartament_mobile.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .spain-right {
+    background-image: url(../../img/laptop/apartament_1024px.jpg);
+  }
+}
+@media screen and (min-width: 1359px) {
+  .spain-right {
+    background-image: url(../../img/desktop/apartament_dekstop_1360px.jpg);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .spain-right {
+    background-image: url(../../img/laptop/apartament_768px.jpg);
+  }
+}
 .tourist {
-  background-image: url(../../img/desktop/tourist_bg_desktop_1360px.jpg);
   padding-top: 120px;
   padding-bottom: 180px;
   background-size: cover;
@@ -522,6 +597,26 @@
 @media screen and (max-width: 1024px) {
   .sam-text {
     max-width: 720px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .tourist {
+    background-image: url(../../img/mobile/tourist_mobile.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .tourist {
+    background-image: url(../../img/desktop/tourist_bg_desktop_1024px.jpg);
+  }
+}
+@media screen and (min-width: 1359px) {
+  .tourist {
+    background-image: url(../../img/desktop/tourist_bg_desktop_1360px.jpg);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .tourist {
+    background-image: url(../../img/laptop/tourist_bg_desktop_768px.jpg);
   }
 }
 .footer {

@@ -2,7 +2,6 @@
     &-left {
         padding-top: 220px;
         padding-bottom: 120px;
-        background-image: url(../../img/desktop/apartament_dekstop_1360px.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -10,7 +9,6 @@
     &-right {
         padding-top: 220px;
         padding-bottom: 120px;
-        background-image: url(../../img/desktop/sea_desktop_1360px.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -69,4 +67,61 @@
         }
     }
     
+}
+
+@media screen and (max-width: 576px){
+    .spain-left {
+        background-image: url(../../img/mobile/sea_mobile.jpg);
+    }
+   
+}
+
+@media screen and (min-width: 1024px){
+    .spain-left {
+        background-image: url(../../img/desktop/sea_desktop_1024px.jpg)
+    }
+   
+}
+
+@media screen and (min-width: 1359px){
+    .spain-left {
+        background-image: url(../../img/desktop/sea_desktop_1360px.jpg);
+    }
+   
+}
+
+@media screen and (max-width: 1024px){
+    .spain-left {
+        background-image: url(../../img/laptop/sea_768px.jpg);
+    }
+   
+}
+
+
+@media screen and (max-width: 576px){
+    .spain-rigth {
+        background-image: url(../../img/mobile/apartament_mobile.jpg);
+    }
+   
+}
+
+@media screen and (min-width: 1024px){
+    .spain-right {
+        background-image: url(../../img/laptop/apartament_1024px.jpg);
+    }
+   
+}
+
+@media screen and (min-width: 1359px){
+    .spain-right {
+        background-image: url(../../img/desktop/apartament_dekstop_1360px.jpg);
+    }
+   
+}
+
+@media screen and (max-width: 1024px){
+    .spain-right {
+        background-image: url(../../img/laptop/apartament_768px.jpg);
+    }
+   
 }

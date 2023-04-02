@@ -1,5 +1,4 @@
 .header {
-    background-image: url("../../img/desktop/header_desktop.jpg");
     background-size: cover;
     padding-top: 295px;
     padding-bottom: 115px;
@@ -164,4 +163,32 @@
     .search-input {
         max-width: 295px;
     }
+}
+
+@media screen and (max-width: 576px){
+    .header {
+        background-image: url(../../img/mobile/Header_mobile.jpg);
+    }
+   
+}
+
+@media screen and (min-width: 1024px){
+    .header {
+        background-image: url(../../img/desktop/header_1024px.jpg);
+    }
+   
+}
+
+@media screen and (min-width: 1359px){
+    .header {
+        background-image: url(../../img/desktop/header_1360px.jpg);
+    }
+   
+}
+
+@media screen and (max-width: 1024px){
+    .header {
+        background-image: url(../../img/desktop/header_768px.jpg);
+    }
+   
 }
