@@ -258,7 +258,7 @@
     gap: 32px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 595px) {
   .navigation-menu {
     display: none;
   }
